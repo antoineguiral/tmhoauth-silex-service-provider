@@ -1,0 +1,38 @@
+{
+    "name": "kud/tmhoauth-silex-extension",
+    "type": "library",
+    "description": "TmhOAuth service provider for Silex.",
+    "keywords": ["silex", "tmhoauth", "oauth", "twitter"],
+    "homepage": "https://github.com/kud/tmhoauth-silex-extension",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erwann MEST",
+            "email": "erwann.mest@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "themattharris/tmhOAuth",
+                "version": "master",
+                "source": {
+                    "url": "git://github.com/themattharris/tmhOAuth.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "silex/silex": ">=1.0.*",
+        "themattharris/tmhOAuth": "master"
+    },
+    "autoload": {
+        "psr0": {
+            "Kud": "src"
+        }
+    }
+}
