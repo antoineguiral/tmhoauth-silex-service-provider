@@ -1,7 +1,7 @@
 {
     "name": "kud/tmhoauth-silex-extension",
     "type": "library",
-    "description": "TmhOAuth service provider for Silex.",
+    "description": "tmhOAuth silex extension.",
     "keywords": ["silex", "tmhoauth", "oauth", "twitter"],
     "homepage": "https://github.com/kud/tmhoauth-silex-extension",
     "version": "0.1.0",
