@@ -1,15 +1,18 @@
 # tmhOAuth Silex Extension
 
-thmOAuth service provider for [Silex][1].
+tmhOAuth service provider for [Silex][1].
 
 ## Installation
 
-Use composer
+```bash
+$ wget http://getcomposer.org/composer.phar
+$ php composer.phar install
+```
 
 ## Registering
 
 ```php
-$app->register(new Kud\Tmhoauth\Extension(), array(
+$app->register(new Kud\Silex\Provider\TmhOAuthServiceProvider(), array(
     'tmhoauth.keys' => array(
     	'consumer_key'    => 'ENTER_HERE_YOUR_TWITTER_CONSUMER_KEY',
     	'consumer_secret   => 'ENTER_HERE_YOUR_TWITTER_CONSUMER_SECRET',
