@@ -18,7 +18,7 @@ $app->register(new Kud\Silex\Provider\TmhOAuthServiceProvider(), array(
     	'consumer_secret   => 'ENTER_HERE_YOUR_TWITTER_CONSUMER_SECRET',
     ),
 ));
-``
+```
 
 ## Credits
 
