@@ -1,9 +1,9 @@
 {
-    "name": "kud/tmhoauth-silex-provider-service",
+    "name": "kud/tmhoauth-silex-service-provider",
     "type": "library",
-    "description": "tmhOAuth silex provider service.",
-    "keywords": ["silex", "tmhoauth", "oauth", "twitter", "provider service"],
-    "homepage": "https://github.com/kud/tmhoauth-silex-provider-service",
+    "description": "tmhOAuth silex service provider.",
+    "keywords": ["silex", "tmhoauth", "oauth", "twitter", "service provider"],
+    "homepage": "https://github.com/kud/tmhoauth-silex-service-provider",
     "version": "0.1.0",
     "license": "MIT",
     "authors": [
