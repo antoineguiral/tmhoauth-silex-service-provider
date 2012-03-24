@@ -11,7 +11,7 @@ class TmhOAuthServiceProvider implements ServiceProviderInterface
     {	
         if(!isset($app['tmhoauth.keys.consumer_key'] || !isset($app['tmhoauth.keys.consumer_secret'])
         {
-            throw new RuntimeException('You must specify both keys (consumer_key and consumer_secret');
+            throw new RuntimeException('You must specify both keys (consumer_key and consumer_secret)');
         }
         
         $app['tmhoauth'] = $app->share(function () use ($app) {
