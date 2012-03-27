@@ -16,7 +16,7 @@
         {
             "type": "package",
             "package": {
-                "name": "kud/tmhOAuth",
+                "name": "Themattharris/TmhOAuth",
                 "version": "master",
                 "source": {
                     "url": "git://github.com/kud/tmhOAuth.git",
@@ -28,7 +28,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "kud/tmhOAuth": "master"
+        "Themattharris/TmhOAuth": "master"
     },
     "autoload": {
         "psr-0": {
