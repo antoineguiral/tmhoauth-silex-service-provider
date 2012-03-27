@@ -12,28 +12,13 @@
             "email": "erwann.mest@gmail.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "Themattharris/TmhOAuth",
-                "version": "master",
-                "source": {
-                    "url": "git://github.com/kud/tmhoauth.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        }
-    ],
     "require": {
         "php": ">=5.3.2",
-        "Themattharris/TmhOAuth": "master"
+        "themattharris/tmhoauth": "dev-master"
     },
     "autoload": {
         "psr-0": {
-            "Kud": "src",
-            "Themattharris" : "Themattharris/TmhOAuth"
+            "Kud": "src"
         }
     }
 }
