@@ -32,7 +32,8 @@
     },
     "autoload": {
         "psr-0": {
-            "Kud": "src"
+            "Kud": "src",
+            "Themattharris" : "Themattharris/TmhOAuth"
         }
     }
 }
