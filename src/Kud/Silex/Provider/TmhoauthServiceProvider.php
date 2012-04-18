@@ -9,7 +9,7 @@ class TmhOAuthServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {	
-        if(!isset($app['tmhoauth.keys.consumer_key'] || !isset($app['tmhoauth.keys.consumer_secret'])
+        if(!isset($app['tmhoauth.keys.consumer_key']) || !isset($app['tmhoauth.keys.consumer_secret']))
         {
             throw new RuntimeException('You must specify both keys (consumer_key and consumer_secret)');
         }
